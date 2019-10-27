@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ManagerApp</string>
+    <string name="더보기">....</string>
+    <string name="스캔">스캔</string>
+    <string name="종료">종료</string>
+
+
+    <string name="불러오기">불러오기</string>
+    <string name="저장">저장</string>
+    <string name="사용자추가">사용자 추가</string>
+
+</resources>
