@@ -7,16 +7,35 @@
 
     <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
 
+        <!-- 전송번호 -->
+        <EditText
+            android:id="@+id/editTextPhoneNo"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:inputType="phone"/>
+
+        <!-- 메세지 -->
+        <EditText
+            android:id="@+id/editTextSMS"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:inputType="textMultiLine"
+            android:lines="5"/>
+
+        <!-- 메세지 전송 -->
         <Button
-            android:id="@+id/menuBtn"
+            android:id="@+id/buttonSend"
             android:layout_margin="10dp"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_gravity="right"
-            android:text="..."/>
+            android:text="문자전송"/>
 
         <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
 
+            <!-- 스캔 -->
             <Button
                 android:id="@+id/scanBtn"
                 android:layout_margin="10dp"
@@ -26,6 +45,7 @@
                 android:text="스캔"
                 android:textSize="30dp" />
 
+            <!-- 종료 -->
             <Button
                 android:id="@+id/exitBtn"
                 android:layout_margin="10dp"
